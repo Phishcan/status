@@ -1,4 +1,3 @@
-# Upptime configuration file
 owner: Phishcan
 repo: status
 
@@ -29,37 +28,119 @@ status-website:
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   css: |
     body {
-      opacity: 1;
+      background-color: #1a1b1e;
+      color: #e0e0e0;
       font-family: 'Inter', sans-serif;
-      background-color: #f8f9fa;
-      color: #374151;
+      margin: 0;
+      padding: 0;
     }
+
     .container {
-      max-width: 1200px;
+      max-width: 960px;
       margin: 0 auto;
       padding: 2rem;
     }
+
     .status {
-      margin: 1rem 0;
-      padding: 1rem;
-      border-radius: 0.5rem;
-      background: white;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin: 0.75rem 0;
+      padding: 1.5rem;
+      border-radius: 8px;
+      background: #2c2f38;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.3s ease;
     }
-    .status.operational {
-      border-left: 4px solid #10b981;
+
+    .status:hover {
+      transform: scale(1.02);
     }
-    .status.degraded {
-      border-left: 4px solid #f59e0b;
-    }
-    .status.outage {
-      border-left: 4px solid #ef4444;
-    }
+
     .status-header {
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #f0f1f3;
     }
+
     .status-date {
-      color: #6b7280;
-      font-size: 0.9rem;
+      color: #a0a0a0;
+      font-size: 0.85rem;
+    }
+
+    .status.operational {
+      border-left: 4px solid #10b981;
+      background-color: #33393f;
+    }
+
+    .status.degraded {
+      border-left: 4px solid #f59e0b;
+      background-color: #33393f;
+    }
+
+    .status.outage {
+      border-left: 4px solid #ef4444;
+      background-color: #33393f;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+      background-color: #121417;
+      border-bottom: 1px solid #333;
+    }
+
+    .navbar a {
+      color: #e0e0e0;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .navbar a:hover {
+      color: #10b981;
+    }
+
+    .introTitle {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #f0f1f3;
+    }
+
+    .introMessage {
+      font-size: 1.1rem;
+      color: #a0a0a0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 0;
+      background-color: #121417;
+      border-bottom: 1px solid #333;
+    }
+
+    header img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      color: #a0a0a0;
+      font-size: 0.875rem;
+      padding: 2rem 0;
+      border-top: 1px solid #333;
+    }
+
+    footer a {
+      color: #10b981;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
