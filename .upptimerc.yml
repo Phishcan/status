@@ -1,6 +1,6 @@
 # Upptime configuration file
-owner: Phishcan # Your GitHub username or organization name
-repo: status   # Your GitHub repository name
+owner: Phishcan
+repo: status
 
 sites:
   - name: Phishcan Website
@@ -15,11 +15,8 @@ sites:
       - 200
 
 status-website:
-  # Add your custom domain below, or remove the next line if you don't have a domain
-  #cname: status.phishcan.org
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /status
-  logoUrl: https://phishcan.org/logo.png # Replace with your logo URL
+  baseUrl: /status
+  logoUrl: https://phishcan.org/logo.png
   name: Phishcan Status
   introTitle: "**Phishcan Status**"
   introMessage: Welcome to the Phishcan status page. Here you can see the real-time status of our services.
@@ -28,6 +25,3 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/Phishcan/status
-
-# Upptime also supports notifications, assignments, and more.
-# See https://github.com/upptime/upptime for more options.
