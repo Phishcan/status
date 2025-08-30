@@ -4,19 +4,19 @@
     "url": "https://phishcan.org",
     "icon": "https://icons.duckduckgo.com/ip3/phishcan.org.ico",
     "slug": "phishcan-website",
-    "status": "down",
-    "uptime": "2.33%",
-    "uptimeDay": "2.33%",
-    "uptimeWeek": "2.33%",
-    "uptimeMonth": "2.33%",
-    "uptimeYear": "2.33%",
-    "time": 290,
-    "timeDay": 290,
-    "timeWeek": 290,
-    "timeMonth": 290,
-    "timeYear": 290,
+    "status": "up",
+    "uptime": "0.05%",
+    "uptimeDay": "0.05%",
+    "uptimeWeek": "0.05%",
+    "uptimeMonth": "0.05%",
+    "uptimeYear": "0.05%",
+    "time": 283,
+    "timeDay": 283,
+    "timeWeek": 283,
+    "timeMonth": 283,
+    "timeYear": 283,
     "dailyMinutesDown": {
-      "2025-08-30": 0
+      "2025-08-30": 178
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://phishcan.org/api",
     "icon": "https://icons.duckduckgo.com/ip3/phishcan.org.ico",
     "slug": "phishcan-api",
-    "status": "down",
-    "uptime": "4.28%",
-    "uptimeDay": "4.28%",
-    "uptimeWeek": "4.28%",
-    "uptimeMonth": "4.28%",
-    "uptimeYear": "4.28%",
-    "time": 79,
-    "timeDay": 79,
-    "timeWeek": 79,
-    "timeMonth": 79,
-    "timeYear": 79,
+    "status": "up",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
+    "time": 81,
+    "timeDay": 81,
+    "timeWeek": 81,
+    "timeMonth": 81,
+    "timeYear": 81,
     "dailyMinutesDown": {
-      "2025-08-30": 0
+      "2025-08-30": 178
     }
   }
 ]
