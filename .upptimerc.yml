@@ -25,3 +25,39 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/Phishcan/status
+  css: |
+    body {
+      opacity: 0.5;
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+      color: #374151;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .status {
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .status.operational {
+      border-left: 4px solid #10b981;
+    }
+    .status.degraded {
+      border-left: 4px solid #f59e0b;
+    }
+    .status.outage {
+      border-left: 4px solid #ef4444;
+    }
+    .status-header {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .status-date {
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
