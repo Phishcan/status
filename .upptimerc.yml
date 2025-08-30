@@ -25,7 +25,7 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/Phishcan/status
-  css: |
+  css:
     body {
       opacity: 0.5;
       font-family: 'Inter', sans-serif;
