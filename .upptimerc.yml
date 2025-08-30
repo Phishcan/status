@@ -16,7 +16,7 @@ sites:
 
 status-website:
   baseUrl: /status
-  logoUrl: https://phishcan.org/logo.png
+  logoUrl: https://phishcan.org/logo1.png
   name: Phishcan Status
   introTitle: "**Phishcan Status**"
   introMessage: Welcome to the Phishcan status page. Here you can see the real-time status of our services.
